@@ -1,0 +1,14 @@
+body {
+    background-image: url("../images/natural_paper/natural_paper.png");
+    background-repeat: repeat;
+}
+
+
+
+/* Bootstrap overides */
+
+.navbar {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: #ffffff;
+}
