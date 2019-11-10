@@ -7,12 +7,11 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+
 /* Bootstrap overides */
 
 .navbar {
     padding: 0 8rem;
-    /* padding-left: 8rem;
-    padding-right: 8rem; */
     background-color: #ffffff;
 }
 
@@ -21,10 +20,11 @@ h1 {
     border-bottom: 2px solid #dee2e6;
 }
 
-.navbar-brand h1 {
+.navbar h1 {
     color: #ffffff;
     background-color: #4aaaa5;
     height: 100%;
     padding: 16px;
     margin: 0;
 }
+
