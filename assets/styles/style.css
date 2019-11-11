@@ -7,17 +7,22 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
 
 /* Bootstrap overides */
 
 .navbar {
-    padding: 0 8rem;
+    padding: 0 7rem;
     background-color: #ffffff;
 }
 
 /* this does not seem to work */
 .navbar .border-bottom {
-    border-bottom: 2px solid #dee2e6;
+    border-bottom: 2px solid #cccccc;
 }
 
 .navbar h1 {
@@ -26,6 +31,14 @@ h1 {
     height: 100%;
     padding: 16px;
     margin: 0;
+}
+
+.card h1 {
+    color: #4aaaa5;
+    border-bottom: solid 2px #cccccc;
+    padding: 20px 0;
+    margin: 20px 0;
+
 }
 
 
@@ -37,6 +50,10 @@ h1 {
 
     .navbar {
         padding: 0 1rem;
+    }
+
+    .card img {
+        width: 100%;
     }
 
 
