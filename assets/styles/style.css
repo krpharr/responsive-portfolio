@@ -41,6 +41,17 @@ p {
 
 }
 
+.footer {
+    background-color: #666666;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+
+}
+
+.footer p {
+    color: lightgray;
+}
+
 
 @media screen and (max-width: 768px) {
 
