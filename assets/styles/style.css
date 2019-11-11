@@ -33,6 +33,10 @@ p {
     margin: 0;
 }
 
+.card {
+    border: 1px solid #dddddd;
+}
+
 .card h1 {
     color: #4aaaa5;
     border-bottom: solid 2px #cccccc;
