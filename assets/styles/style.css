@@ -7,13 +7,10 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-p {
+p, .card {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
-
-
-/* Bootstrap overides */
 
 .navbar {
     padding: 0 7rem;
@@ -46,10 +43,28 @@ p {
 
 }
 
+/* .btn {
+    color: #ffffff;
+    background-color: #4aaaa5;
+} */
+
+.btn-primary {
+    background-color: #4aaaa5 !important;
+    border-color: #4aaaa5 !important;
+}
+
+.btn-primary:hover {
+    background-color: #0d635e !important;
+    border-color: #0d635e !important;
+}
+
+
+
 .footer {
     background-color: #666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
+    font-size: 12px;
 
 }
 
