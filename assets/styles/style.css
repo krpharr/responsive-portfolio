@@ -83,12 +83,13 @@ p, .card {
     background-color: #666666;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    font-size: 12px;
+
 
 }
 
 .footer p {
     color: lightgray;
+    font-size: 12px;
 }
 
 
@@ -111,10 +112,17 @@ p, .card {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
 
     p {
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    p {
+        font-size: 1.75rem;
     }
 }
   
