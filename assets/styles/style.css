@@ -116,8 +116,20 @@ p, .card {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    #head-shot {
+        width: 40%;
+    }
+
+}
+
 @media only screen and (min-width: 992px) {
 
+    #head-shot {
+        width: 35%;
+    }
+
+    
     p {
         font-size: 1.2rem;
     }
@@ -128,6 +140,7 @@ p, .card {
     .card-body {
         padding: 72px!important;
     }
+
 
     p {
         font-size: 1.6rem;
