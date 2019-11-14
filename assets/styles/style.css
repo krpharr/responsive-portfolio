@@ -96,7 +96,12 @@ p, .card {
 @media screen and (max-width: 768px) {
 
     body {
-        margin: 0 8px;    
+        margin: 0 4px;    
+    }
+
+    .col-md-12 {
+        padding-left: 4px;
+        padding-right: 4px;
     }
 
     .navbar {
@@ -112,7 +117,7 @@ p, .card {
     }
 
     .card-body {
-        padding: 16px!important;
+        padding: 16px 8px!important;
     }
 }
 
