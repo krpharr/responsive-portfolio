@@ -92,6 +92,16 @@ p, .card {
     font-size: 12px;
 }
 
+.far {
+    margin-right: 16px;
+}
+
+.fas {
+    margin-right: 12px;
+}
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -137,6 +147,10 @@ p, .card {
     
     p {
         font-size: 1.2rem;
+    }
+
+    .far, .fas {
+        display: none!important;
     }
 }
 
