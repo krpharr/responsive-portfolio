@@ -7,6 +7,10 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+p {
+    text-indent: 2rem;
+}
+
 p, .card {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -90,6 +94,7 @@ p, .card {
 .footer p {
     color: lightgray;
     font-size: 12px;
+    text-indent: 0;
 }
 
 .far {
