@@ -51,6 +51,11 @@ p, .card {
     padding: 0;
 }
 
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
 .project {
 
     margin: 20px 40px 20px 0;
