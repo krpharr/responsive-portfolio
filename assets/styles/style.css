@@ -104,6 +104,11 @@ p, .card {
     margin-right: 12px;
 }
 
+.fa-user-circle {
+    padding-left: 2px;
+    margin-right: 14px;
+}
+
 @media screen and (max-width: 768px) {
     body {
         margin: 0 4px;    
@@ -157,7 +162,7 @@ p, .card {
         font-size: 1.2rem;
     }
 
-    .far, .fas {
+    .navbar .far, .fas {
         display: none!important;
     }
 }
