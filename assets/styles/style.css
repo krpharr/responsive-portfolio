@@ -7,9 +7,10 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-p {
+
+/* p {
     text-indent: 2rem;
-}
+} */
 
 p,
 .card {
